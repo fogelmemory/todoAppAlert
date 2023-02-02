@@ -14,11 +14,7 @@ app = Flask(__name__)
 CORS(app)
 mysql = MySQL()
 
-app.config['MAIL_SERVER'] = 'smtp.protonmail.com'
-app.config['MAIL_PORT'] = 587
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'fogelmemory@protonmail.com'  # replace with your ProtonMail email address
-app.config['MAIL_PASSWORD'] = 'dsad1212'
+
 
 
 app.config['MYSQL_DATABASE_USER'] = 'root'
